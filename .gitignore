@@ -1,0 +1,13 @@
+# Local secrets - never commit real Wi-Fi credentials
+wifi_credentials.h
+
+# Arduino IDE / build artifacts
+build/
+*.hex
+*.bin
+*.elf
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db

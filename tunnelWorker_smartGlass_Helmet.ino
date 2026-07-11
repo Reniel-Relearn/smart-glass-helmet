@@ -28,16 +28,10 @@ struct WiFiCredential {
   const char* password;
 };
 
-WiFiCredential wifiCredentials[] = {
-  {"PLDTHOMEFIBR6gzYE", "ulap12@MJ@5x"},
-  {"Redmi Note 13 Pro 5G", "12345678"},
-  {"Lloydie", "zzzzzzzz"},
-  {"Bili ka wifi mo !!!!", "qwertyuioplkjhgfdsa1234567890"},
-  {"Niel Pakonek", "hahaha123"},
-
-  // Add more Wi-Fi networks here if needed:
-  // {"WIFI/HOTSPOT_NAME", "WIFI/HOTSPOT_PASSWORD"},
-};
+// wifi_credentials.h is gitignored (local secrets, not committed).
+// Copy wifi_credentials.example.h to wifi_credentials.h and fill in
+// your own network(s) before building.
+#include "wifi_credentials.h"
 
 const int WIFI_COUNT = sizeof(wifiCredentials) / sizeof(wifiCredentials[0]);
 const unsigned long WIFI_ATTEMPT_TIMEOUT = 10000;
