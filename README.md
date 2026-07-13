@@ -1,6 +1,13 @@
 # Smart Glass Helmet — Tunnel Worker Edition
 
+![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat&logo=espressif&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat&logo=bluetooth&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+
 A wearable safety system for underground/tunnel workers, built on an ESP32-S3. The helmet-mounted visor continuously monitors ambient temperature, humidity, and obstacle distance, and surfaces SAFE / CAUTION / DANGER alerts through an on-visor OLED display, BLE notifications, and a Firebase Realtime Database feed for remote monitoring.
+
+**Role:** Team Leader & Embedded Systems Engineer — directed a 6-person team from architecture through simulated-conditions end-to-end testing (May 2026). Migrated the platform from ESP32-C3 to ESP32-S3 mid-project to resolve a simultaneous BLE/Wi-Fi operation constraint.
 
 ## Features
 
@@ -94,4 +101,4 @@ Path: `helmetLogs/devices/<DEVICE_ID>/latest` and `.../history`
 
 ## Project Docs
 
-See [SmartGlass-FinalLabExam.pdf](SmartGlass-FinalLabExam.pdf) for the full lab exam writeup.
+See [SmartGlass-FinalLabExam.pdf](SmartGlass-FinalLabExam.pdf) for the full lab exam writeup. Demo/testing footage: [YouTube](https://www.youtube.com/@galangrenielf.3168).
